@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body {
+            background-color: rgb(167, 43, 167);
+            color: white;
+            font: normal 20pt Arial;
+        }
+
+        h1 {color: yellow;}
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Oi, tudo bem?</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')) //string
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: ')) //string
+        //Pode ser sem parsetInt ou parseFloat, somente colocando Number
+        //String(n) n.toString()
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s) /*Poderia ser vertido tb dessa maneira> window.alert(`a soma dos valores é ${s}`)*/
+        //+ para adição e + como concatenação        
+
+
+        /*var s = 'JavaScript' 
+        s.length - quantos caracteres a string tem
+        s.toUpperCase() - tudo para maiúsculas
+        s.toLowerCase() - tudo para minúsculas*/
+
+    </script>
+</body>
+</html>
