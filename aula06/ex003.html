@@ -19,13 +19,17 @@
     <h1>Título</h1>
     <p>Oi, tudo bem?</p>
     <script>
-        var n1 = Number.parseInt(window.prompt('Digite um número: ')) //string
-        var n2 = Number.parseFloat(window.prompt('Digite outro número: ')) //string
+        var n1 = Number.parseInt(window.prompt('Digite um número:'))
+        var n2 = Number.parseInt(window.prompt('Digite outro número'))
+        var s = n1 + n2
+
+        //string
         //Pode ser sem parsetInt ou parseFloat, somente colocando Number
         //String(n) n.toString()
-        var s = n1 + n2
         window.alert('A soma dos valores é ' + s) /*Poderia ser vertido tb dessa maneira> window.alert(`a soma dos valores é ${s}`)*/
         //+ para adição e + como concatenação        
+
+        window.alert('A soma entre ${n1} e ${n2} é igual a ${s}')
 
 
         /*var s = 'JavaScript' 
